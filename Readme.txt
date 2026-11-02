@@ -1,0 +1,1 @@
+Rooster vs Pigeon Classifier Model Deployment Configuration.

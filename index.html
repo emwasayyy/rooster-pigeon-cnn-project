@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooster vs Pigeon CNN Classifier | Muhammad Wasay Rafiq</title>
+  <!-- Load Gradio web component to embed your live model -->
+  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.36.1/gradio.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f3f4f6; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    h1 { color: #1f2937; font-size: 24px; margin-top: 0; }
+    p { color: #4b5563; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 15px; }
+    .links a { background: #2563eb; color: white; padding: 8px 14px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: bold; }
+    .links a.secondary { background: #4b5563; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Deep Learning Semester Project: Rooster vs Pigeon Classification</h1>
+      <p><b>Student:</b> Muhammad Wasay Rafiq (SU92-BCSFM-F24-002) | <b>Instructor:</b> Dr. Munir Ahmad | Superior University Lahore</p>
+      <div class="links">
+        <a href="/Readme.txt" target="_blank">📄 View Readme.txt (For AI Grader)</a>
+        <a href="YOUR_GOOGLE_DRIVE_DATASET_LINK" target="_blank" class="secondary">📂 Google Drive Dataset</a>
+        <a href="YOUR_GOOGLE_DRIVE_EXPORTS_LINK" target="_blank" class="secondary">⚖️ Download .keras Models</a>
+        <a href="YOUR_GOOGLE_DRIVE_REPORT_LINK" target="_blank" class="secondary">📊 Project Report (PDF)</a>
+      </div>
+    </div>
+    
+    <div class="card" style="padding: 0; overflow: hidden;">
+      <!-- Embeds your live Hugging Face app seamlessly inside your Vercel page -->
+      <gradio-app src="https://YOUR-HF-USERNAME-rooster-pigeon-classifier.hf.space"></gradio-app>
+    </div>
+  </div>
+</body>
+</html>
